@@ -9,8 +9,8 @@ for (int i = 0; i < array.Length; i ++ )
     Console.Write (array[i] +" ");
 }
 for (int j = 0; j < array.Length; j ++ )
-{
+
    if (j % 2 == 1) sum = sum + array[j];
-   }
+   
    Console.WriteLine();
    Console.WriteLine($" Сумма чисел  стоящих на нечетной позиции равна: {sum}");
